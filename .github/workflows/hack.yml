@@ -1,11 +1,6 @@
 name: APPROVE
 
-on:
-  push:
-    branches: [main]
-  pull_request:
-    branches:
-      - '**'
+on: pull_request
 
   workflow_dispatch:
 
