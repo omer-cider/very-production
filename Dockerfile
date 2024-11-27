@@ -1,1 +1,1 @@
-FROM python:12
+FROM busybox:latest
